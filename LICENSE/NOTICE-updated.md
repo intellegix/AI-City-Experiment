@@ -1,0 +1,44 @@
+# NOTICE File for Intellegix
+
+This product includes software developed by Intellegix
+
+Copyright 2025 Intellegix
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+## Attribution Requirements
+
+When redistributing this software or derivative works, you must:
+
+1. **Preserve this NOTICE file** - Include a copy of this NOTICE file in any redistribution
+2. **Display attribution** - Show "Crafted by Intellegix" in one of these locations:
+   - Footer of the user interface
+   - About/Settings dialog
+   - Splash screen or startup display
+   - Documentation or credits section
+   - Command line help or version output (for CLI applications)
+
+3. **Maintain visibility** - Do not remove or obscure existing "Intellegix" or "Intellegix" branding from the UI or product experience
+
+## Trademark Notice
+
+"Intellegix" and "Intellegix.ai" are trademarks claimed by Intellegix. This license does not grant permission to use these names for branding your own products or services, or to suggest endorsement. Use is permitted only for:
+- Required attribution as described above
+- Fair use to describe the origin of the software
+- Factual references in documentation
+
+For other uses of our trademarks, see our separate Trademark Policy.
+
+## Third Party Components
+
+This software may include third-party components subject to their own licenses. See individual component documentation for details.

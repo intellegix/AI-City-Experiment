@@ -1,0 +1,30 @@
+{
+  "num_citizens": 50,
+  "total_ticks": 10,
+  "simulation_time": 10.0,
+  "final_stats": {
+    "tick": 10,
+    "simulation_time": 10.0,
+    "total_citizens": 50,
+    "total_interactions": 23,
+    "total_trades": 0,
+    "total_wealth": 90333.6,
+    "wealth_gini": 0.5290130804041908,
+    "avg_relationship": 1.1588421052631575,
+    "avg_money": 1806.672,
+    "avg_hunger": 0.6000000000000001,
+    "avg_energy": 0.8110000000000003,
+    "avg_social": 0.5892400000000001,
+    "states": {
+      "IDLE": 37,
+      "TRAVELING": 0,
+      "WORKING": 5,
+      "SOCIALIZING": 8,
+      "TRADING": 0,
+      "RESTING": 0,
+      "SEEKING_RESOURCES": 0
+    },
+    "recent_events": 23
+  },
+  "experiment_dir": "..\\..\\..\\experiments\\experiment_1761017655"
+}

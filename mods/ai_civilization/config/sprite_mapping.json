@@ -1,0 +1,40 @@
+{
+  "archetype_sprites": {
+    "artist": ["magician", "catgirl", "magician_fiery"],
+    "tech_worker": ["boss", "miner", "adventurer"],
+    "entrepreneur": ["boss", "knight", "adventurer"],
+    "service_worker": ["barmaid", "catgirl", "monk"],
+    "teacher": ["monk", "magician", "nurse"],
+    "tradesperson": ["miner", "adventurer", "knight"],
+    "office_worker": ["boss", "adventurer", "monk"],
+    "healthcare_worker": ["nurse", "barmaid", "catgirl"],
+    "athlete": ["adventurer", "beachcomber", "ninja"],
+    "engineer": ["miner", "boss", "knight"],
+    "educator": ["monk", "magician", "catgirl"],
+    "medic": ["nurse", "barmaid"],
+    "trader": ["adventurer", "beachcomber", "boss"],
+    "farmer": ["miner", "beachcomber", "adventurer"],
+    "builder": ["miner", "boss", "knight"],
+    "guard": ["knight", "ninja", "adventurer"],
+    "chef": ["barmaid", "catgirl", "monk"],
+    "scientist": ["magician", "boss", "monk"],
+    "musician": ["magician", "catgirl", "beachcomber"],
+    "writer": ["magician", "monk", "catgirl"],
+    "explorer": ["adventurer", "beachcomber", "ninja"],
+    "inventor": ["boss", "miner", "magician"],
+    "default": ["adventurer", "monk", "boss"]
+  },
+  "color_variants": {
+    "adventurer": ["adventurer", "adventurer_beige", "adventurer_green", "adventurer_red", "adventurer_yellow"],
+    "magician": ["magician", "magician_black", "magician_blonde", "magician_brown", "magician_fiery", "magician_grey"],
+    "knight": ["knight", "knight_green", "knight_red", "knight_yellow"],
+    "miner": ["miner", "miner_blue", "miner_green", "miner_red", "miner_yellow"],
+    "boss": ["boss", "boss_blue", "boss_green", "boss_orange", "boss_red"],
+    "monk": ["monk", "monk_black", "monk_blue", "monk_green", "monk_orange", "monk_red"],
+    "ninja": ["ninja", "ninja_blue", "ninja_red"],
+    "nurse": ["nurse", "nurse_blonde", "nurse_blue", "nurse_green", "nurse_red"],
+    "catgirl": ["catgirl", "catgirl_blonde", "catgirl_blue", "catgirl_fiery", "catgirl_green", "catgirl_violet"],
+    "barmaid": ["barmaid", "barmaid_blonde", "barmaid_red"],
+    "beachcomber": ["beachcomber", "beachcomber_black", "beachcomber_blue", "beachcomber_copper", "beachcomber_fiery", "beachcomber_gray"]
+  }
+}

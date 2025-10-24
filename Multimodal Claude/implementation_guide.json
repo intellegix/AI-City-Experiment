@@ -1,0 +1,158 @@
+{
+  "1_orchestrator_implementation": {
+    "description": "Main orchestrator agent that coordinates all specialized agents",
+    "code_structure": "\nclass ClaudeOrchestrator:\n    def __init__(self):\n        self.model = 'claude-opus-4'\n        self.agents = {\n            'frontend': FrontendAgent(),\n            'backend': BackendAgent(),\n            'performance': PerformanceAgent(),\n            'architecture': ArchitectureAgent()\n        }\n        self.memory = MemoryManager()\n        self.mcp_client = MCPClient()\n\n    async def process_request(self, user_request, context=None):\n        # Step 1: Analyze request and plan workflow\n        plan = await self.create_execution_plan(user_request)\n\n        # Step 2: Decompose into agent tasks\n        tasks = self.decompose_tasks(plan)\n\n        # Step 3: Execute agents (parallel where possible)\n        results = await self.execute_agents(tasks)\n\n        # Step 4: Aggregate and synthesize results\n        final_output = await self.synthesize_results(results)\n\n        # Step 5: Validate and optimize\n        validated = await self.validate_output(final_output)\n\n        return validated\n\n    async def create_execution_plan(self, request):\n        # Use Claude Opus to analyze and create plan\n        system_prompt = '''\n        You are an orchestrator for a multi-agent development system.\n        Analyze the request and create an execution plan that:\n        1. Identifies which agents are needed\n        2. Determines dependencies between tasks\n        3. Specifies parallel vs sequential execution\n        4. Sets success criteria\n        '''\n\n        response = await self.call_claude(\n            model=self.model,\n            system=system_prompt,\n            messages=[{'role': 'user', 'content': request}]\n        )\n\n        return response\n",
+    "key_features": [
+      "Task decomposition into agent-specific subtasks",
+      "Parallel execution where no dependencies exist",
+      "Context aggregation across agent outputs",
+      "Error recovery and retry logic",
+      "Performance monitoring and optimization"
+    ]
+  },
+  "2_frontend_agent_implementation": {
+    "description": "Specialized agent for UI/Frontend development with performance focus",
+    "code_structure": "\nclass FrontendAgent:\n    def __init__(self):\n        self.model = 'claude-sonnet-4'\n        self.state_machine_lib = 'xstate'\n        self.ui_framework = 'react'\n\n    async def develop_ui_component(self, spec, design_mockup=None):\n        # Step 1: Analyze design if mockup provided (Vision API)\n        design_analysis = None\n        if design_mockup:\n            design_analysis = await self.analyze_design(design_mockup)\n\n        # Step 2: Define component architecture\n        architecture = await self.design_component_architecture(spec, design_analysis)\n\n        # Step 3: Implement state machine for UI state\n        state_machine = await self.create_state_machine(architecture)\n\n        # Step 4: Generate optimized component code\n        component_code = await self.generate_component(\n            architecture=architecture,\n            state_machine=state_machine,\n            optimization_level='high'\n        )\n\n        # Step 5: Apply performance optimizations\n        optimized_code = await self.apply_optimizations(component_code)\n\n        return {\n            'architecture': architecture,\n            'state_machine': state_machine,\n            'code': optimized_code,\n            'performance_metrics': self.estimate_performance(optimized_code)\n        }\n\n    async def analyze_design(self, mockup_image):\n        # Use Claude Vision API to analyze UI mockup\n        system_prompt = '''\n        Analyze this UI design mockup and extract:\n        1. Component hierarchy and layout structure\n        2. Visual states and transitions\n        3. Interactive elements and their behaviors\n        4. Design system patterns used\n        5. Performance considerations (animations, images, etc.)\n        '''\n\n        response = await self.call_claude_vision(\n            model=self.model,\n            system=system_prompt,\n            images=[mockup_image]\n        )\n\n        return response\n\n    async def create_state_machine(self, architecture):\n        # Generate XState or similar state machine definition\n        system_prompt = '''\n        Create a finite state machine definition for this UI component.\n        Include:\n        - All possible UI states\n        - State transitions and triggers\n        - Guard conditions\n        - Actions on state entry/exit\n        - Event handlers\n\n        Optimize for:\n        - Clear state separation\n        - Minimal re-renders\n        - Predictable behavior\n        '''\n\n        response = await self.call_claude(\n            model=self.model,\n            system=system_prompt,\n            messages=[{'role': 'user', 'content': str(architecture)}]\n        )\n\n        return response\n",
+    "optimization_patterns": [
+      "Component memoization (React.memo, useMemo)",
+      "Lazy loading and code splitting",
+      "Virtual scrolling for large lists",
+      "Debounced/throttled event handlers",
+      "GPU-accelerated CSS transforms",
+      "Request animation frame for smooth updates",
+      "State machine for complex UI state management"
+    ]
+  },
+  "3_performance_agent_implementation": {
+    "description": "Agent focused on performance optimization and monitoring",
+    "code_structure": "\nclass PerformanceAgent:\n    def __init__(self):\n        self.model = 'claude-sonnet-4'\n        self.profiling_tools = ['lighthouse', 'webpack-bundle-analyzer']\n\n    async def optimize_application(self, codebase, metrics):\n        # Step 1: Analyze current performance\n        analysis = await self.analyze_performance(codebase, metrics)\n\n        # Step 2: Identify bottlenecks\n        bottlenecks = await self.identify_bottlenecks(analysis)\n\n        # Step 3: Generate optimization strategies\n        strategies = await self.create_optimization_plan(bottlenecks)\n\n        # Step 4: Apply optimizations\n        optimized_code = await self.apply_optimizations(codebase, strategies)\n\n        # Step 5: Validate improvements\n        validation = await self.validate_optimizations(optimized_code)\n\n        return {\n            'optimized_code': optimized_code,\n            'strategies_applied': strategies,\n            'performance_improvement': validation,\n            'recommendations': self.generate_recommendations(validation)\n        }\n\n    async def optimize_rendering(self, component_code):\n        system_prompt = '''\n        Optimize this component for rendering performance:\n\n        1. Memory Management:\n           - Implement object pooling for frequently created objects\n           - Minimize garbage collection pressure\n           - Efficient data structures\n\n        2. Rendering Pipeline:\n           - Reduce layout thrashing (batch DOM reads/writes)\n           - Use CSS containment for isolated updates\n           - Implement virtual scrolling if applicable\n           - GPU acceleration for transforms/opacity\n\n        3. Update Cycles:\n           - Minimize unnecessary re-renders\n           - Batch state updates\n           - Use requestIdleCallback for non-critical work\n           - Implement incremental rendering\n\n        4. Event System:\n           - Event delegation\n           - Debounce/throttle high-frequency events\n           - Passive event listeners\n        '''\n\n        response = await self.call_claude(\n            model=self.model,\n            system=system_prompt,\n            messages=[{'role': 'user', 'content': component_code}]\n        )\n\n        return response\n",
+    "optimization_techniques": {
+      "memory_management": [
+        "Object pooling",
+        "Memory leak detection",
+        "Efficient data structures",
+        "Asset streaming with LOD",
+        "Garbage collection optimization"
+      ],
+      "rendering": [
+        "Virtual DOM optimization",
+        "CSS containment",
+        "GPU acceleration",
+        "Paint optimization",
+        "Layout thrashing prevention"
+      ],
+      "update_cycles": [
+        "Batch updates",
+        "RequestIdleCallback",
+        "Web Workers",
+        "Priority-based scheduling",
+        "Incremental rendering"
+      ]
+    }
+  },
+  "4_memory_management": {
+    "description": "Multi-layer memory system for context and state management",
+    "architecture": "\nclass MemoryManager:\n    def __init__(self):\n        # Short-term: Current conversation context\n        self.context_window = ConversationHistory(max_tokens=200000)\n\n        # Working memory: Shared state across agents\n        self.working_memory = RedisStore()\n\n        # Long-term: Vector store for project knowledge\n        self.vector_store = ChromaDB()\n\n        # Knowledge base: Architecture decisions, patterns\n        self.knowledge_base = DocumentStore()\n\n    async def store_context(self, agent_id, context_type, data):\n        # Store in appropriate memory layer\n        if context_type == 'conversation':\n            await self.context_window.add(agent_id, data)\n        elif context_type == 'shared_state':\n            await self.working_memory.set(agent_id, data)\n        elif context_type == 'knowledge':\n            await self.vector_store.add_document(data)\n\n    async def retrieve_context(self, agent_id, query, layers=['all']):\n        # Retrieve from multiple memory layers\n        contexts = []\n\n        if 'conversation' in layers or 'all' in layers:\n            contexts.append(\n                await self.context_window.get(agent_id)\n            )\n\n        if 'shared_state' in layers or 'all' in layers:\n            contexts.append(\n                await self.working_memory.get(agent_id)\n            )\n\n        if 'knowledge' in layers or 'all' in layers:\n            # Semantic search in vector store\n            contexts.append(\n                await self.vector_store.query(query, top_k=5)\n            )\n\n        return self.merge_contexts(contexts)\n",
+    "memory_layers": {
+      "short_term": {
+        "storage": "In-memory conversation buffer",
+        "scope": "Current task/conversation",
+        "retention": "Duration of session",
+        "use_case": "Immediate context for agent decisions"
+      },
+      "working_memory": {
+        "storage": "Redis or in-memory state store",
+        "scope": "Multi-agent coordination",
+        "retention": "Duration of workflow",
+        "use_case": "Shared state, inter-agent communication"
+      },
+      "long_term": {
+        "storage": "Vector database (ChromaDB/Pinecone)",
+        "scope": "Project-wide knowledge",
+        "retention": "Persistent",
+        "use_case": "Code patterns, architecture decisions, best practices"
+      }
+    }
+  },
+  "5_mcp_integration": {
+    "description": "Model Context Protocol for external tool access",
+    "implementation": "\nclass MCPIntegration:\n    def __init__(self):\n        self.mcp_servers = {\n            'github': GitHubMCPServer(),\n            'filesystem': FileSystemMCPServer(),\n            'database': DatabaseMCPServer(),\n            'build_tools': BuildToolsMCPServer()\n        }\n\n    async def execute_tool(self, tool_name, parameters):\n        # MCP standardized tool execution\n        server = self.get_server_for_tool(tool_name)\n\n        result = await server.execute(\n            tool=tool_name,\n            params=parameters\n        )\n\n        return result\n\n    async def provide_context(self, context_type):\n        # MCP context provision to Claude\n        if context_type == 'repository':\n            return await self.mcp_servers['github'].get_context()\n        elif context_type == 'files':\n            return await self.mcp_servers['filesystem'].get_context()\n        # ... etc\n",
+    "mcp_servers": [
+      "GitHub - Repository access, code review, PRs",
+      "File System - Local file operations",
+      "Database - Schema queries, data operations",
+      "Build Tools - Compilation, bundling, testing",
+      "API Services - External API integration"
+    ]
+  },
+  "6_communication_patterns": {
+    "orchestrator_worker": {
+      "description": "Central orchestrator delegates to worker agents",
+      "flow": [
+        "1. Orchestrator receives user request",
+        "2. Orchestrator analyzes and creates execution plan",
+        "3. Orchestrator delegates subtasks to specialized agents",
+        "4. Agents execute in parallel where possible",
+        "5. Orchestrator aggregates results",
+        "6. Orchestrator synthesizes final output"
+      ],
+      "advantages": [
+        "Clear coordination",
+        "Centralized error handling",
+        "Easy to reason about workflow",
+        "Good for complex dependencies"
+      ]
+    },
+    "event_driven": {
+      "description": "Agents communicate via event bus",
+      "implementation": "\nclass EventBus:\n    def __init__(self):\n        self.subscribers = defaultdict(list)\n\n    def subscribe(self, event_type, agent_id, handler):\n        self.subscribers[event_type].append({\n            'agent_id': agent_id,\n            'handler': handler\n        })\n\n    async def publish(self, event_type, data):\n        for subscriber in self.subscribers[event_type]:\n            await subscriber['handler'](data)\n\n# Usage\nevent_bus = EventBus()\n\n# Frontend agent subscribes to design events\nevent_bus.subscribe('design_updated', 'frontend_agent', \n                   frontend_agent.handle_design_update)\n\n# Backend agent subscribes to API events\nevent_bus.subscribe('api_schema_changed', 'backend_agent',\n                   backend_agent.handle_schema_change)\n",
+      "advantages": [
+        "Loose coupling between agents",
+        "Asynchronous communication",
+        "Easy to add new agents",
+        "Event-driven reactivity"
+      ]
+    }
+  },
+  "7_ui_performance_architecture": {
+    "state_machine_pattern": {
+      "description": "Finite state machine for UI state management",
+      "implementation": "\n// XState implementation example\nimport { createMachine, interpret } from 'xstate';\n\nconst uiStateMachine = createMachine({\n  id: 'ui-component',\n  initial: 'idle',\n  states: {\n    idle: {\n      on: {\n        FETCH: 'loading'\n      }\n    },\n    loading: {\n      on: {\n        SUCCESS: 'success',\n        ERROR: 'error'\n      }\n    },\n    success: {\n      on: {\n        REFETCH: 'loading',\n        RESET: 'idle'\n      }\n    },\n    error: {\n      on: {\n        RETRY: 'loading',\n        RESET: 'idle'\n      }\n    }\n  }\n});\n\nconst service = interpret(uiStateMachine);\nservice.start();\n",
+      "benefits": [
+        "Predictable state transitions",
+        "Eliminates impossible states",
+        "Clear visualization of UI flow",
+        "Easier testing and debugging",
+        "Prevents race conditions"
+      ]
+    },
+    "rendering_optimization": {
+      "techniques": [
+        {
+          "name": "Component Memoization",
+          "code": "\n// React.memo for functional components\nconst ExpensiveComponent = React.memo(({ data }) => {\n  return <div>{/* expensive rendering */}</div>;\n}, (prevProps, nextProps) => {\n  // Custom comparison\n  return prevProps.data.id === nextProps.data.id;\n});\n\n// useMemo for expensive calculations\nconst memoizedValue = useMemo(() => {\n  return expensiveCalculation(data);\n}, [data]);\n"
+        },
+        {
+          "name": "Virtual Scrolling",
+          "code": "\nimport { FixedSizeList } from 'react-window';\n\nconst VirtualList = ({ items }) => (\n  <FixedSizeList\n    height={600}\n    itemCount={items.length}\n    itemSize={50}\n    width=\"100%\"\n  >\n    {({ index, style }) => (\n      <div style={style}>\n        {items[index]}\n      </div>\n    )}\n  </FixedSizeList>\n);\n"
+        },
+        {
+          "name": "GPU Acceleration",
+          "code": "\n/* Use transform and opacity for GPU acceleration */\n.animated-element {\n  /* Bad - triggers layout/paint */\n  /* left: 100px; */\n\n  /* Good - GPU accelerated */\n  transform: translateX(100px);\n  will-change: transform;\n}\n\n/* Trigger GPU layer */\n.gpu-layer {\n  transform: translateZ(0);\n  backface-visibility: hidden;\n}\n"
+        }
+      ]
+    },
+    "memory_management": {
+      "techniques": [
+        {
+          "name": "Object Pooling",
+          "code": "\nclass ObjectPool {\n  constructor(createFn, resetFn, initialSize = 10) {\n    this.createFn = createFn;\n    this.resetFn = resetFn;\n    this.available = [];\n    this.inUse = new Set();\n\n    // Pre-allocate objects\n    for (let i = 0; i < initialSize; i++) {\n      this.available.push(this.createFn());\n    }\n  }\n\n  acquire() {\n    let obj = this.available.pop();\n    if (!obj) {\n      obj = this.createFn();\n    }\n    this.inUse.add(obj);\n    return obj;\n  }\n\n  release(obj) {\n    this.resetFn(obj);\n    this.inUse.delete(obj);\n    this.available.push(obj);\n  }\n}\n\n// Usage for particles/entities\nconst particlePool = new ObjectPool(\n  () => ({ x: 0, y: 0, vx: 0, vy: 0 }),\n  (p) => { p.x = p.y = p.vx = p.vy = 0; },\n  100\n);\n"
+        },
+        {
+          "name": "Asset Streaming",
+          "code": "\nclass AssetStreamer {\n  constructor() {\n    this.loadedAssets = new Map();\n    this.loadQueue = [];\n    this.maxConcurrent = 4;\n  }\n\n  async streamAsset(url, priority = 0) {\n    // Check cache first\n    if (this.loadedAssets.has(url)) {\n      return this.loadedAssets.get(url);\n    }\n\n    // Add to priority queue\n    return new Promise((resolve) => {\n      this.loadQueue.push({ url, priority, resolve });\n      this.loadQueue.sort((a, b) => b.priority - a.priority);\n      this.processQueue();\n    });\n  }\n\n  async processQueue() {\n    while (this.loadQueue.length > 0 && \n           this.loading.size < this.maxConcurrent) {\n      const item = this.loadQueue.shift();\n      await this.loadAsset(item);\n    }\n  }\n\n  async loadAsset(item) {\n    const asset = await fetch(item.url);\n    this.loadedAssets.set(item.url, asset);\n    item.resolve(asset);\n  }\n}\n"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+.buildozer/
+bin/
+.DS_Store
+*.log
+.cache/
+android-sdk/
+*.tar.gz
+Tuxemon/

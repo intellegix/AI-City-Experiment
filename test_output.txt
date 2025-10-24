@@ -1,0 +1,46 @@
+[INIT] Working directory: C:\Users\akidw\ASR Dropbox\Austin Kidwell\02_DevelopmentProjects\AI City Experiment\Tuxemon
+[INIT] Mods path: C:\Users\akidw\ASR Dropbox\Austin Kidwell\02_DevelopmentProjects\AI City Experiment\mods\ai_civilization\scripts
+pygame-ce 2.5.3 (SDL 2.30.12, Python 3.13.9)
+Android module is not available or not running on Android
+pygame-menu-ce 4.5.2
+============================================================
+TUXEMON AI CIVILIZATION EXPERIMENT
+============================================================
+Citizens to spawn: 3
+LLM Mode: Disabled (Behavior Trees)
+============================================================
+
+Starting Tuxemon...
+AI citizens will spawn when map is fully loaded.
+
+Controls:
+  Arrow Keys - Move player
+  ESC - Menu
+  Space/Enter - Interact with NPCs
+============================================================
+
+[PATCH] Tuxemon patched for AI civilization integration (update hook)
+[PATCH] Citizens will spawn when map is fully loaded
+Git Hash: 288c8fd1c
+Enabling logging of all modules.
+[UPDATE] Attempting to spawn citizens (frame 11)
+
+============================================================
+SPAWNING AI CITIZENS
+============================================================
+[SPAWN] Session validated - ready to spawn
+TuxemonCivilizationManager initialized with 1000 citizen profiles
+Spawning 3 AI citizens on map...
+  Registered NPC in database: ai_civ_citizen_0822 (nurse)
+  Error spawning citizen citizen_0822: 'dict' object has no attribute 'template'
+  Registered NPC in database: ai_civ_citizen_0016 (monk_green)
+  Error spawning citizen citizen_0016: 'dict' object has no attribute 'template'
+  Registered NPC in database: ai_civ_citizen_0781 (catgirl_fiery)
+  Error spawning citizen citizen_0781: 'dict' object has no attribute 'template'
+Successfully spawned 0 AI citizens
+
+AI Civilization spawned successfully!
+Total citizens: 0
+Archetypes: {}
+Total wealth: $0
+============================================================

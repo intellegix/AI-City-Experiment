@@ -1,0 +1,329 @@
+{
+  "description": "Citizen foundation profiles for AI civilization experiment. Minimal pre-programming, maximum emergent behavior. Profiles provide starting conditions only - behavior emerges naturally.",
+  "version": "1.0",
+  "profiles": [
+    {
+      "id": "profile_001",
+      "archetype": "service_worker",
+      "starting_resources": {
+        "money": 150,
+        "items": ["basic_backpack", "water_bottle"]
+      },
+      "starting_location_type": "residential_low",
+      "personality_seed": {
+        "openness": 0.5,
+        "conscientiousness": 0.6,
+        "extraversion": 0.5,
+        "agreeableness": 0.6,
+        "neuroticism": 0.5
+      }
+    },
+    {
+      "id": "profile_002",
+      "archetype": "office_worker",
+      "starting_resources": {
+        "money": 300,
+        "items": ["backpack", "smartphone", "coffee"]
+      },
+      "starting_location_type": "residential_mid",
+      "personality_seed": {
+        "openness": 0.5,
+        "conscientiousness": 0.7,
+        "extraversion": 0.4,
+        "agreeableness": 0.5,
+        "neuroticism": 0.5
+      }
+    },
+    {
+      "id": "profile_003",
+      "archetype": "retail_worker",
+      "starting_resources": {
+        "money": 200,
+        "items": ["basic_backpack", "snack", "keys"]
+      },
+      "starting_location_type": "residential_low",
+      "personality_seed": {
+        "openness": 0.5,
+        "conscientiousness": 0.5,
+        "extraversion": 0.7,
+        "agreeableness": 0.7,
+        "neuroticism": 0.4
+      }
+    },
+    {
+      "id": "profile_004",
+      "archetype": "student",
+      "starting_resources": {
+        "money": 100,
+        "items": ["backpack", "notebook", "water_bottle"]
+      },
+      "starting_location_type": "educational",
+      "personality_seed": {
+        "openness": 0.7,
+        "conscientiousness": 0.5,
+        "extraversion": 0.5,
+        "agreeableness": 0.5,
+        "neuroticism": 0.5
+      }
+    },
+    {
+      "id": "profile_005",
+      "archetype": "professional",
+      "starting_resources": {
+        "money": 500,
+        "items": ["laptop_bag", "smartphone", "wallet", "coffee"]
+      },
+      "starting_location_type": "residential_high",
+      "personality_seed": {
+        "openness": 0.6,
+        "conscientiousness": 0.8,
+        "extraversion": 0.5,
+        "agreeableness": 0.5,
+        "neuroticism": 0.4
+      }
+    },
+    {
+      "id": "profile_006",
+      "archetype": "unemployed",
+      "starting_resources": {
+        "money": 50,
+        "items": ["worn_backpack"]
+      },
+      "starting_location_type": "public_space",
+      "personality_seed": {
+        "openness": 0.5,
+        "conscientiousness": 0.4,
+        "extraversion": 0.4,
+        "agreeableness": 0.5,
+        "neuroticism": 0.6
+      }
+    },
+    {
+      "id": "profile_007",
+      "archetype": "entrepreneur",
+      "starting_resources": {
+        "money": 400,
+        "items": ["backpack", "smartphone", "notebook", "keys"]
+      },
+      "starting_location_type": "commercial",
+      "personality_seed": {
+        "openness": 0.8,
+        "conscientiousness": 0.7,
+        "extraversion": 0.7,
+        "agreeableness": 0.5,
+        "neuroticism": 0.5
+      }
+    },
+    {
+      "id": "profile_008",
+      "archetype": "senior_citizen",
+      "starting_resources": {
+        "money": 250,
+        "items": ["small_bag", "medication", "wallet"]
+      },
+      "starting_location_type": "residential_mid",
+      "personality_seed": {
+        "openness": 0.4,
+        "conscientiousness": 0.6,
+        "extraversion": 0.4,
+        "agreeableness": 0.6,
+        "neuroticism": 0.5
+      }
+    },
+    {
+      "id": "profile_009",
+      "archetype": "artist",
+      "starting_resources": {
+        "money": 180,
+        "items": ["messenger_bag", "sketchbook", "phone"]
+      },
+      "starting_location_type": "residential_low",
+      "personality_seed": {
+        "openness": 0.9,
+        "conscientiousness": 0.4,
+        "extraversion": 0.5,
+        "agreeableness": 0.6,
+        "neuroticism": 0.6
+      }
+    },
+    {
+      "id": "profile_010",
+      "archetype": "healthcare_worker",
+      "starting_resources": {
+        "money": 350,
+        "items": ["backpack", "medical_supplies", "smartphone", "id_badge"]
+      },
+      "starting_location_type": "hospital",
+      "personality_seed": {
+        "openness": 0.6,
+        "conscientiousness": 0.8,
+        "extraversion": 0.5,
+        "agreeableness": 0.8,
+        "neuroticism": 0.4
+      }
+    },
+    {
+      "id": "profile_011",
+      "archetype": "gig_worker",
+      "starting_resources": {
+        "money": 120,
+        "items": ["backpack", "smartphone", "water_bottle"]
+      },
+      "starting_location_type": "commercial",
+      "personality_seed": {
+        "openness": 0.6,
+        "conscientiousness": 0.5,
+        "extraversion": 0.6,
+        "agreeableness": 0.5,
+        "neuroticism": 0.5
+      }
+    },
+    {
+      "id": "profile_012",
+      "archetype": "teacher",
+      "starting_resources": {
+        "money": 280,
+        "items": ["backpack", "books", "coffee", "grading_materials"]
+      },
+      "starting_location_type": "educational",
+      "personality_seed": {
+        "openness": 0.7,
+        "conscientiousness": 0.7,
+        "extraversion": 0.6,
+        "agreeableness": 0.7,
+        "neuroticism": 0.4
+      }
+    },
+    {
+      "id": "profile_013",
+      "archetype": "manual_laborer",
+      "starting_resources": {
+        "money": 200,
+        "items": ["lunch_box", "water_bottle", "work_gloves"]
+      },
+      "starting_location_type": "industrial",
+      "personality_seed": {
+        "openness": 0.4,
+        "conscientiousness": 0.7,
+        "extraversion": 0.5,
+        "agreeableness": 0.6,
+        "neuroticism": 0.4
+      }
+    },
+    {
+      "id": "profile_014",
+      "archetype": "tech_worker",
+      "starting_resources": {
+        "money": 600,
+        "items": ["laptop_bag", "laptop", "smartphone", "headphones", "energy_drink"]
+      },
+      "starting_location_type": "commercial",
+      "personality_seed": {
+        "openness": 0.8,
+        "conscientiousness": 0.6,
+        "extraversion": 0.4,
+        "agreeableness": 0.5,
+        "neuroticism": 0.5
+      }
+    },
+    {
+      "id": "profile_015",
+      "archetype": "parent_homemaker",
+      "starting_resources": {
+        "money": 220,
+        "items": ["large_bag", "snacks", "water_bottles", "first_aid"]
+      },
+      "starting_location_type": "residential_mid",
+      "personality_seed": {
+        "openness": 0.5,
+        "conscientiousness": 0.7,
+        "extraversion": 0.5,
+        "agreeableness": 0.8,
+        "neuroticism": 0.5
+      }
+    },
+    {
+      "id": "profile_016",
+      "archetype": "single_parent",
+      "starting_resources": {
+        "money": 180,
+        "items": ["backpack", "childcare_items", "phone"]
+      },
+      "starting_location_type": "residential_low",
+      "personality_seed": {
+        "openness": 0.5,
+        "conscientiousness": 0.7,
+        "extraversion": 0.5,
+        "agreeableness": 0.6,
+        "neuroticism": 0.6
+      }
+    },
+    {
+      "id": "profile_017",
+      "archetype": "small_business_owner",
+      "starting_resources": {
+        "money": 450,
+        "items": ["backpack", "keys", "smartphone", "business_supplies"]
+      },
+      "starting_location_type": "commercial",
+      "personality_seed": {
+        "openness": 0.7,
+        "conscientiousness": 0.8,
+        "extraversion": 0.6,
+        "agreeableness": 0.6,
+        "neuroticism": 0.5
+      }
+    },
+    {
+      "id": "profile_018",
+      "archetype": "recent_graduate",
+      "starting_resources": {
+        "money": 90,
+        "items": ["backpack", "resume_portfolio", "cheap_phone"]
+      },
+      "starting_location_type": "residential_low",
+      "personality_seed": {
+        "openness": 0.7,
+        "conscientiousness": 0.6,
+        "extraversion": 0.6,
+        "agreeableness": 0.6,
+        "neuroticism": 0.6
+      }
+    },
+    {
+      "id": "profile_019",
+      "archetype": "tradesperson",
+      "starting_resources": {
+        "money": 320,
+        "items": ["tool_bag", "work_van_keys", "water_bottle"]
+      },
+      "starting_location_type": "industrial",
+      "personality_seed": {
+        "openness": 0.5,
+        "conscientiousness": 0.8,
+        "extraversion": 0.5,
+        "agreeableness": 0.6,
+        "neuroticism": 0.4
+      }
+    },
+    {
+      "id": "profile_020",
+      "archetype": "social_worker",
+      "starting_resources": {
+        "money": 260,
+        "items": ["backpack", "case_files", "smartphone", "id_badge"]
+      },
+      "starting_location_type": "public_services",
+      "personality_seed": {
+        "openness": 0.7,
+        "conscientiousness": 0.7,
+        "extraversion": 0.6,
+        "agreeableness": 0.9,
+        "neuroticism": 0.5
+      }
+    }
+  ],
+  "personality_notes": "Big Five personality traits range from 0.0-1.0. Values near 0.5 are neutral. These are STARTING seeds only - actual behavior emerges from interactions and needs, not predetermined by these values.",
+  "diversity_notes": "Profiles represent socio-economic diversity found in modern society. Starting money ranges from 50 (unemployed) to 600 (tech worker) to reflect real income disparities. Archetypes are descriptive labels only - they do NOT determine behavior.",
+  "bias_mitigation": "Personality traits are centered around neutral (0.5) with small variations. No profile has extreme values (0.0 or 1.0). Behavior emerges from AI decision-making, not scripted responses."
+}

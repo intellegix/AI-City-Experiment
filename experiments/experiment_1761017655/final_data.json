@@ -1,0 +1,2413 @@
+{
+  "tick": 10,
+  "simulation_time": 10.0,
+  "citizens": [
+    {
+      "id": "citizen_0000",
+      "archetype": "entrepreneur",
+      "profile_id": "citizen_0993",
+      "position": [
+        166.0,
+        264.0
+      ],
+      "state": "IDLE",
+      "money": 303.6,
+      "items": [
+        "basic_backpack",
+        "phone",
+        "notebook"
+      ],
+      "personality": {
+        "openness": 0.27999999999999997,
+        "conscientiousness": 0.29,
+        "extraversion": 0.73,
+        "agreeableness": 0.45999999999999996,
+        "neuroticism": 0.39
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.6700000000000002,
+        "social": 0.7749999999999999,
+        "wealth": 0.30360000000000004,
+        "safety": 1.0,
+        "achievement": 0.48
+      },
+      "relationships": {
+        "citizen_0042": 0.9219999999999996,
+        "citizen_0026": 1.2679999999999998
+      },
+      "stats": {
+        "interactions_count": 2,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 31.6,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0001",
+      "archetype": "tech_worker",
+      "profile_id": "citizen_0020",
+      "position": [
+        465.0,
+        540.0
+      ],
+      "state": "IDLE",
+      "money": 6667,
+      "items": [
+        "laptop_bag",
+        "laptop",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.53,
+        "conscientiousness": 0.45,
+        "extraversion": 0.77,
+        "agreeableness": 0.62,
+        "neuroticism": 0.21000000000000002
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.44999999999999996,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0002",
+      "archetype": "artist",
+      "profile_id": "citizen_0931",
+      "position": [
+        726.0,
+        109.0
+      ],
+      "state": "SOCIALIZING",
+      "money": 900,
+      "items": [
+        "backpack",
+        "sketchbook",
+        "phone"
+      ],
+      "personality": {
+        "openness": 0.8,
+        "conscientiousness": 0.8,
+        "extraversion": 0.5599999999999999,
+        "agreeableness": 0.6799999999999999,
+        "neuroticism": 0.45
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.606,
+        "wealth": 0.9,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0048": 0.7179999999999999
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0003",
+      "archetype": "entrepreneur",
+      "profile_id": "citizen_0341",
+      "position": [
+        258.0,
+        210.0
+      ],
+      "state": "IDLE",
+      "money": 1659,
+      "items": [
+        "backpack",
+        "phone",
+        "notebook"
+      ],
+      "personality": {
+        "openness": 0.51,
+        "conscientiousness": 0.3,
+        "extraversion": 0.5599999999999999,
+        "agreeableness": 0.43,
+        "neuroticism": 0.6900000000000001
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.762,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0010": 0.5419999999999999,
+        "citizen_0030": 0.9779999999999996
+      },
+      "stats": {
+        "interactions_count": 2,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0004",
+      "archetype": "tradesperson",
+      "profile_id": "citizen_0805",
+      "position": [
+        356.0,
+        494.0
+      ],
+      "state": "WORKING",
+      "money": 253.00000000000003,
+      "items": [
+        "basic_backpack",
+        "work_gloves",
+        "lunch_box"
+      ],
+      "personality": {
+        "openness": 0.45999999999999996,
+        "conscientiousness": 0.37,
+        "extraversion": 0.5,
+        "agreeableness": 0.39,
+        "neuroticism": 0.5900000000000001
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.22,
+        "social": 0.44999999999999996,
+        "wealth": 0.23560000000000003,
+        "safety": 1.0,
+        "achievement": 0.7799999999999999
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 87.0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0005",
+      "archetype": "office_worker",
+      "profile_id": "citizen_0119",
+      "position": [
+        87.0,
+        397.0
+      ],
+      "state": "SOCIALIZING",
+      "money": 304.0,
+      "items": [
+        "basic_backpack",
+        "smartphone",
+        "coffee"
+      ],
+      "personality": {
+        "openness": 0.33999999999999997,
+        "conscientiousness": 0.25,
+        "extraversion": 0.77,
+        "agreeableness": 0.67,
+        "neuroticism": 0.48
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.42,
+        "social": 0.77,
+        "wealth": 0.304,
+        "safety": 1.0,
+        "achievement": 0.6799999999999999
+      },
+      "relationships": {
+        "citizen_0017": 0,
+        "citizen_0007": 0.9779999999999998
+      },
+      "stats": {
+        "interactions_count": 2,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 60.0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0006",
+      "archetype": "tradesperson",
+      "profile_id": "citizen_0606",
+      "position": [
+        654.0,
+        253.0
+      ],
+      "state": "IDLE",
+      "money": 348,
+      "items": [
+        "basic_backpack",
+        "work_gloves",
+        "lunch_box",
+        "phone"
+      ],
+      "personality": {
+        "openness": 0.64,
+        "conscientiousness": 0.3,
+        "extraversion": 0.33999999999999997,
+        "agreeableness": 0.39,
+        "neuroticism": 0.45999999999999996
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.575,
+        "wealth": 0.348,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0021": 1.0859999999999999
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0007",
+      "archetype": "tradesperson",
+      "profile_id": "citizen_0205",
+      "position": [
+        52.0,
+        411.0
+      ],
+      "state": "SOCIALIZING",
+      "money": 1600,
+      "items": [
+        "backpack",
+        "work_gloves",
+        "lunch_box",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.63,
+        "conscientiousness": 0.24,
+        "extraversion": 0.43,
+        "agreeableness": 0.3,
+        "neuroticism": 0.75
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.593,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0005": 0.9779999999999998
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0008",
+      "archetype": "service_worker",
+      "profile_id": "citizen_0816",
+      "position": [
+        403.0,
+        366.0
+      ],
+      "state": "WORKING",
+      "money": 307.00000000000006,
+      "items": [
+        "basic_backpack",
+        "water_bottle"
+      ],
+      "personality": {
+        "openness": 0.76,
+        "conscientiousness": 0.48,
+        "extraversion": 0.75,
+        "agreeableness": 0.6,
+        "neuroticism": 0.6
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.22,
+        "social": 0.44999999999999996,
+        "wealth": 0.28740000000000004,
+        "safety": 1.0,
+        "achievement": 0.7799999999999999
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 98.0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0009",
+      "archetype": "tradesperson",
+      "profile_id": "citizen_0570",
+      "position": [
+        353.0,
+        424.0
+      ],
+      "state": "IDLE",
+      "money": 6276,
+      "items": [
+        "backpack",
+        "work_gloves",
+        "lunch_box"
+      ],
+      "personality": {
+        "openness": 0.73,
+        "conscientiousness": 0.42000000000000004,
+        "extraversion": 0.55,
+        "agreeableness": 0.5599999999999999,
+        "neuroticism": 0.47000000000000003
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.894,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0023": 4.8100000000000005
+      },
+      "stats": {
+        "interactions_count": 3,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0010",
+      "archetype": "service_worker",
+      "profile_id": "citizen_0237",
+      "position": [
+        257.0,
+        154.0
+      ],
+      "state": "WORKING",
+      "money": 228.99999999999994,
+      "items": [
+        "basic_backpack",
+        "water_bottle",
+        "phone"
+      ],
+      "personality": {
+        "openness": 0.63,
+        "conscientiousness": 0.51,
+        "extraversion": 0.8,
+        "agreeableness": 0.65,
+        "neuroticism": 0.64
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.22,
+        "social": 0.98,
+        "wealth": 0.20879999999999996,
+        "safety": 1.0,
+        "achievement": 0.7799999999999999
+      },
+      "relationships": {
+        "citizen_0034": 1.7999999999999998,
+        "citizen_0003": 0.5419999999999999,
+        "citizen_0030": 1.0959999999999996
+      },
+      "stats": {
+        "interactions_count": 4,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 101.0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0011",
+      "archetype": "teacher",
+      "profile_id": "citizen_0970",
+      "position": [
+        65.0,
+        323.0
+      ],
+      "state": "IDLE",
+      "money": 1528,
+      "items": [
+        "backpack",
+        "books",
+        "coffee"
+      ],
+      "personality": {
+        "openness": 0.2,
+        "conscientiousness": 0.45999999999999996,
+        "extraversion": 0.27,
+        "agreeableness": 0.6599999999999999,
+        "neuroticism": 0.47000000000000003
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.44999999999999996,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0012",
+      "archetype": "healthcare_worker",
+      "profile_id": "citizen_0654",
+      "position": [
+        292.0,
+        210.0
+      ],
+      "state": "IDLE",
+      "money": 9661,
+      "items": [
+        "backpack",
+        "medical_supplies",
+        "id_badge"
+      ],
+      "personality": {
+        "openness": 0.6900000000000001,
+        "conscientiousness": 0.58,
+        "extraversion": 0.6599999999999999,
+        "agreeableness": 0.53,
+        "neuroticism": 0.76
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.44999999999999996,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0013",
+      "archetype": "tradesperson",
+      "profile_id": "citizen_0464",
+      "position": [
+        85.0,
+        405.0
+      ],
+      "state": "WORKING",
+      "money": 300.00000000000006,
+      "items": [
+        "basic_backpack",
+        "work_gloves",
+        "lunch_box"
+      ],
+      "personality": {
+        "openness": 0.41,
+        "conscientiousness": 0.44000000000000006,
+        "extraversion": 0.5,
+        "agreeableness": 0.5900000000000001,
+        "neuroticism": 0.44000000000000006
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.22,
+        "social": 0.44999999999999996,
+        "wealth": 0.28120000000000006,
+        "safety": 1.0,
+        "achievement": 0.7799999999999999
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 94.0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0014",
+      "archetype": "tech_worker",
+      "profile_id": "citizen_0577",
+      "position": [
+        313.0,
+        61.0
+      ],
+      "state": "IDLE",
+      "money": 1429,
+      "items": [
+        "backpack",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.2,
+        "conscientiousness": 0.38,
+        "extraversion": 0.6599999999999999,
+        "agreeableness": 0.6,
+        "neuroticism": 0.27
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.759,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0041": 0.8799999999999997
+      },
+      "stats": {
+        "interactions_count": 2,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0015",
+      "archetype": "tradesperson",
+      "profile_id": "citizen_0354",
+      "position": [
+        732.0,
+        202.0
+      ],
+      "state": "IDLE",
+      "money": 1984,
+      "items": [
+        "backpack",
+        "work_gloves",
+        "lunch_box",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.27999999999999997,
+        "conscientiousness": 0.33999999999999997,
+        "extraversion": 0.54,
+        "agreeableness": 0.41,
+        "neuroticism": 0.44000000000000006
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.604,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0046": 0.6419999999999999
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0016",
+      "archetype": "tech_worker",
+      "profile_id": "citizen_0934",
+      "position": [
+        79.0,
+        231.0
+      ],
+      "state": "IDLE",
+      "money": 1151,
+      "items": [
+        "backpack",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.47000000000000003,
+        "conscientiousness": 0.37,
+        "extraversion": 0.64,
+        "agreeableness": 0.43,
+        "neuroticism": 0.74
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.44999999999999996,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0017",
+      "archetype": "teacher",
+      "profile_id": "citizen_0792",
+      "position": [
+        122.0,
+        467.0
+      ],
+      "state": "IDLE",
+      "money": 5502,
+      "items": [
+        "backpack",
+        "books",
+        "coffee"
+      ],
+      "personality": {
+        "openness": 0.6,
+        "conscientiousness": 0.63,
+        "extraversion": 0.62,
+        "agreeableness": 0.2,
+        "neuroticism": 0.53
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.627,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0005": 0
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0018",
+      "archetype": "entrepreneur",
+      "profile_id": "citizen_0670",
+      "position": [
+        280.0,
+        124.0
+      ],
+      "state": "IDLE",
+      "money": 484,
+      "items": [
+        "basic_backpack",
+        "phone",
+        "notebook"
+      ],
+      "personality": {
+        "openness": 0.52,
+        "conscientiousness": 0.5599999999999999,
+        "extraversion": 0.27999999999999997,
+        "agreeableness": 0.54,
+        "neuroticism": 0.6599999999999999
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.44999999999999996,
+        "wealth": 0.484,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0019",
+      "archetype": "entrepreneur",
+      "profile_id": "citizen_0504",
+      "position": [
+        358.0,
+        347.0
+      ],
+      "state": "SOCIALIZING",
+      "money": 1472,
+      "items": [
+        "backpack",
+        "phone",
+        "notebook"
+      ],
+      "personality": {
+        "openness": 0.53,
+        "conscientiousness": 0.27999999999999997,
+        "extraversion": 0.48,
+        "agreeableness": 0.6,
+        "neuroticism": 0.5700000000000001
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.598,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0023": 1.6960000000000002
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0020",
+      "archetype": "tradesperson",
+      "profile_id": "citizen_0681",
+      "position": [
+        199.0,
+        474.0
+      ],
+      "state": "IDLE",
+      "money": 723,
+      "items": [
+        "backpack",
+        "work_gloves",
+        "lunch_box",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.8,
+        "conscientiousness": 0.54,
+        "extraversion": 0.64,
+        "agreeableness": 0.41,
+        "neuroticism": 0.48
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.614,
+        "wealth": 0.723,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0045": 0.4
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0021",
+      "archetype": "entrepreneur",
+      "profile_id": "citizen_0109",
+      "position": [
+        646.0,
+        239.0
+      ],
+      "state": "IDLE",
+      "money": 1657,
+      "items": [
+        "backpack",
+        "phone",
+        "notebook"
+      ],
+      "personality": {
+        "openness": 0.58,
+        "conscientiousness": 0.51,
+        "extraversion": 0.25,
+        "agreeableness": 0.2,
+        "neuroticism": 0.61
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.575,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0006": 1.0859999999999999
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0022",
+      "archetype": "entrepreneur",
+      "profile_id": "citizen_0706",
+      "position": [
+        576.0,
+        393.0
+      ],
+      "state": "IDLE",
+      "money": 1274,
+      "items": [
+        "backpack",
+        "phone",
+        "notebook"
+      ],
+      "personality": {
+        "openness": 0.6,
+        "conscientiousness": 0.48,
+        "extraversion": 0.61,
+        "agreeableness": 0.37,
+        "neuroticism": 0.63
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.44999999999999996,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0023",
+      "archetype": "tradesperson",
+      "profile_id": "citizen_0919",
+      "position": [
+        323.0,
+        365.0
+      ],
+      "state": "SOCIALIZING",
+      "money": 6974,
+      "items": [
+        "backpack",
+        "work_gloves",
+        "lunch_box"
+      ],
+      "personality": {
+        "openness": 0.71,
+        "conscientiousness": 0.43,
+        "extraversion": 0.48,
+        "agreeableness": 0.6900000000000001,
+        "neuroticism": 0.31
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 1.0,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0009": 4.8100000000000005,
+        "citizen_0019": 1.6960000000000002
+      },
+      "stats": {
+        "interactions_count": 4,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0024",
+      "archetype": "tradesperson",
+      "profile_id": "citizen_0226",
+      "position": [
+        558.0,
+        136.0
+      ],
+      "state": "SOCIALIZING",
+      "money": 4245,
+      "items": [
+        "backpack",
+        "work_gloves",
+        "lunch_box",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.5700000000000001,
+        "conscientiousness": 0.72,
+        "extraversion": 0.65,
+        "agreeableness": 0.6599999999999999,
+        "neuroticism": 0.6900000000000001
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.78,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0027": 1.5139999999999996,
+        "citizen_0025": 1.178
+      },
+      "stats": {
+        "interactions_count": 2,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0025",
+      "archetype": "entrepreneur",
+      "profile_id": "citizen_0912",
+      "position": [
+        608.0,
+        147.0
+      ],
+      "state": "SOCIALIZING",
+      "money": 1630,
+      "items": [
+        "backpack",
+        "phone",
+        "notebook"
+      ],
+      "personality": {
+        "openness": 0.38,
+        "conscientiousness": 0.35,
+        "extraversion": 0.32999999999999996,
+        "agreeableness": 0.61,
+        "neuroticism": 0.78
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.615,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0024": 1.178
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0026",
+      "archetype": "tech_worker",
+      "profile_id": "citizen_0789",
+      "position": [
+        208.0,
+        254.0
+      ],
+      "state": "IDLE",
+      "money": 300.0,
+      "items": [
+        "basic_backpack",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.52,
+        "conscientiousness": 0.2,
+        "extraversion": 0.52,
+        "agreeableness": 0.5599999999999999,
+        "neuroticism": 0.8
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.42,
+        "social": 0.602,
+        "wealth": 0.3,
+        "safety": 1.0,
+        "achievement": 0.6799999999999999
+      },
+      "relationships": {
+        "citizen_0000": 1.2679999999999998
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 56.0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0027",
+      "archetype": "healthcare_worker",
+      "profile_id": "citizen_0936",
+      "position": [
+        531.0,
+        137.0
+      ],
+      "state": "IDLE",
+      "money": 1390,
+      "items": [
+        "backpack",
+        "medical_supplies",
+        "id_badge"
+      ],
+      "personality": {
+        "openness": 0.64,
+        "conscientiousness": 0.6599999999999999,
+        "extraversion": 0.65,
+        "agreeableness": 0.6,
+        "neuroticism": 0.48
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.615,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0024": 1.5139999999999996
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0028",
+      "archetype": "office_worker",
+      "profile_id": "citizen_0971",
+      "position": [
+        704.0,
+        264.0
+      ],
+      "state": "WORKING",
+      "money": 195.00000000000003,
+      "items": [
+        "basic_backpack",
+        "smartphone",
+        "coffee"
+      ],
+      "personality": {
+        "openness": 0.45,
+        "conscientiousness": 0.44000000000000006,
+        "extraversion": 0.36,
+        "agreeableness": 0.31,
+        "neuroticism": 0.27999999999999997
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.22,
+        "social": 0.586,
+        "wealth": 0.17620000000000002,
+        "safety": 1.0,
+        "achievement": 0.7799999999999999
+      },
+      "relationships": {
+        "citizen_0049": 1.2719999999999998
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 94.0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0029",
+      "archetype": "tech_worker",
+      "profile_id": "citizen_0103",
+      "position": [
+        678.0,
+        373.0
+      ],
+      "state": "IDLE",
+      "money": 1580,
+      "items": [
+        "backpack",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.58,
+        "conscientiousness": 0.45999999999999996,
+        "extraversion": 0.5599999999999999,
+        "agreeableness": 0.41,
+        "neuroticism": 0.32
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.44999999999999996,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0030",
+      "archetype": "tradesperson",
+      "profile_id": "citizen_0355",
+      "position": [
+        303.0,
+        220.0
+      ],
+      "state": "IDLE",
+      "money": 1533,
+      "items": [
+        "backpack",
+        "work_gloves",
+        "lunch_box",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.4,
+        "conscientiousness": 0.45,
+        "extraversion": 0.55,
+        "agreeableness": 0.5900000000000001,
+        "neuroticism": 0.78
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.786,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0003": 0.9779999999999996,
+        "citizen_0010": 1.0959999999999996
+      },
+      "stats": {
+        "interactions_count": 2,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0031",
+      "archetype": "teacher",
+      "profile_id": "citizen_0780",
+      "position": [
+        141.0,
+        91.0
+      ],
+      "state": "IDLE",
+      "money": 1165,
+      "items": [
+        "backpack",
+        "books",
+        "coffee",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.7,
+        "conscientiousness": 0.62,
+        "extraversion": 0.27,
+        "agreeableness": 0.43,
+        "neuroticism": 0.32999999999999996
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.44999999999999996,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0032",
+      "archetype": "teacher",
+      "profile_id": "citizen_0013",
+      "position": [
+        490.0,
+        379.0
+      ],
+      "state": "IDLE",
+      "money": 1193,
+      "items": [
+        "backpack",
+        "books",
+        "coffee",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.26,
+        "conscientiousness": 0.32999999999999996,
+        "extraversion": 0.5700000000000001,
+        "agreeableness": 0.58,
+        "neuroticism": 0.5700000000000001
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.44999999999999996,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0033",
+      "archetype": "tech_worker",
+      "profile_id": "citizen_0789",
+      "position": [
+        466.0,
+        314.0
+      ],
+      "state": "IDLE",
+      "money": 300.0,
+      "items": [
+        "basic_backpack",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.52,
+        "conscientiousness": 0.2,
+        "extraversion": 0.52,
+        "agreeableness": 0.5599999999999999,
+        "neuroticism": 0.8
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.42,
+        "social": 0.44999999999999996,
+        "wealth": 0.3,
+        "safety": 1.0,
+        "achievement": 0.6799999999999999
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 56.0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0034",
+      "archetype": "teacher",
+      "profile_id": "citizen_0709",
+      "position": [
+        185.0,
+        144.0
+      ],
+      "state": "IDLE",
+      "money": 305.0,
+      "items": [
+        "basic_backpack",
+        "books",
+        "coffee"
+      ],
+      "personality": {
+        "openness": 0.54,
+        "conscientiousness": 0.2,
+        "extraversion": 0.52,
+        "agreeableness": 0.8,
+        "neuroticism": 0.35
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.7200000000000001,
+        "social": 0.782,
+        "wealth": 0.305,
+        "safety": 1.0,
+        "achievement": 0.38
+      },
+      "relationships": {
+        "citizen_0010": 1.7999999999999998
+      },
+      "stats": {
+        "interactions_count": 2,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 14.0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0035",
+      "archetype": "tech_worker",
+      "profile_id": "citizen_0927",
+      "position": [
+        745.0,
+        206.0
+      ],
+      "state": "IDLE",
+      "money": 1429,
+      "items": [
+        "backpack",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.27,
+        "conscientiousness": 0.51,
+        "extraversion": 0.52,
+        "agreeableness": 0.31,
+        "neuroticism": 0.38
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.44999999999999996,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0036",
+      "archetype": "service_worker",
+      "profile_id": "citizen_0335",
+      "position": [
+        558.0,
+        498.0
+      ],
+      "state": "IDLE",
+      "money": 630,
+      "items": [
+        "backpack",
+        "water_bottle",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.5599999999999999,
+        "conscientiousness": 0.44000000000000006,
+        "extraversion": 0.55,
+        "agreeableness": 0.74,
+        "neuroticism": 0.51
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.44999999999999996,
+        "wealth": 0.63,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0037",
+      "archetype": "tradesperson",
+      "profile_id": "citizen_0096",
+      "position": [
+        683.0,
+        153.0
+      ],
+      "state": "IDLE",
+      "money": 1375,
+      "items": [
+        "backpack",
+        "work_gloves",
+        "lunch_box",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.4,
+        "conscientiousness": 0.53,
+        "extraversion": 0.41,
+        "agreeableness": 0.64,
+        "neuroticism": 0.44000000000000006
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.44999999999999996,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0038",
+      "archetype": "office_worker",
+      "profile_id": "citizen_0182",
+      "position": [
+        63.0,
+        246.0
+      ],
+      "state": "IDLE",
+      "money": 1738,
+      "items": [
+        "backpack",
+        "smartphone",
+        "coffee"
+      ],
+      "personality": {
+        "openness": 0.8,
+        "conscientiousness": 0.35,
+        "extraversion": 0.8,
+        "agreeableness": 0.8,
+        "neuroticism": 0.39
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.44999999999999996,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0039",
+      "archetype": "service_worker",
+      "profile_id": "citizen_0032",
+      "position": [
+        382.0,
+        168.0
+      ],
+      "state": "IDLE",
+      "money": 320,
+      "items": [
+        "basic_backpack",
+        "water_bottle"
+      ],
+      "personality": {
+        "openness": 0.22999999999999998,
+        "conscientiousness": 0.47000000000000003,
+        "extraversion": 0.36,
+        "agreeableness": 0.2,
+        "neuroticism": 0.49000000000000005
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.586,
+        "wealth": 0.32,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0047": 0.23799999999999996
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0040",
+      "archetype": "healthcare_worker",
+      "profile_id": "citizen_0967",
+      "position": [
+        686.0,
+        526.0
+      ],
+      "state": "IDLE",
+      "money": 467,
+      "items": [
+        "basic_backpack",
+        "first_aid",
+        "id_badge",
+        "phone"
+      ],
+      "personality": {
+        "openness": 0.8,
+        "conscientiousness": 0.49000000000000005,
+        "extraversion": 0.55,
+        "agreeableness": 0.47000000000000003,
+        "neuroticism": 0.48
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.44999999999999996,
+        "wealth": 0.467,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0041",
+      "archetype": "office_worker",
+      "profile_id": "citizen_0855",
+      "position": [
+        338.0,
+        57.0
+      ],
+      "state": "IDLE",
+      "money": 3664,
+      "items": [
+        "backpack",
+        "smartphone",
+        "coffee"
+      ],
+      "personality": {
+        "openness": 0.49000000000000005,
+        "conscientiousness": 0.63,
+        "extraversion": 0.43,
+        "agreeableness": 0.3,
+        "neuroticism": 0.5599999999999999
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.759,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0014": 0.8799999999999997
+      },
+      "stats": {
+        "interactions_count": 2,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0042",
+      "archetype": "entrepreneur",
+      "profile_id": "citizen_0686",
+      "position": [
+        103.0,
+        253.0
+      ],
+      "state": "IDLE",
+      "money": 1958,
+      "items": [
+        "backpack",
+        "phone",
+        "notebook"
+      ],
+      "personality": {
+        "openness": 0.45999999999999996,
+        "conscientiousness": 0.51,
+        "extraversion": 0.6799999999999999,
+        "agreeableness": 0.62,
+        "neuroticism": 0.62
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.6229999999999999,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0000": 0.9219999999999996
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0043",
+      "archetype": "tradesperson",
+      "profile_id": "citizen_0981",
+      "position": [
+        261.0,
+        113.0
+      ],
+      "state": "IDLE",
+      "money": 6196,
+      "items": [
+        "backpack",
+        "work_gloves",
+        "lunch_box",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.52,
+        "conscientiousness": 0.5599999999999999,
+        "extraversion": 0.2,
+        "agreeableness": 0.47000000000000003,
+        "neuroticism": 0.52
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.44999999999999996,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0044",
+      "archetype": "service_worker",
+      "profile_id": "citizen_0018",
+      "position": [
+        533.0,
+        64.0
+      ],
+      "state": "IDLE",
+      "money": 1927,
+      "items": [
+        "backpack",
+        "water_bottle",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.51,
+        "conscientiousness": 0.51,
+        "extraversion": 0.24,
+        "agreeableness": 0.72,
+        "neuroticism": 0.53
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.44999999999999996,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {},
+      "stats": {
+        "interactions_count": 0,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0045",
+      "archetype": "tradesperson",
+      "profile_id": "citizen_0700",
+      "position": [
+        247.0,
+        539.0
+      ],
+      "state": "IDLE",
+      "money": 488,
+      "items": [
+        "basic_backpack",
+        "work_gloves",
+        "lunch_box"
+      ],
+      "personality": {
+        "openness": 0.25,
+        "conscientiousness": 0.48,
+        "extraversion": 0.27,
+        "agreeableness": 0.49000000000000005,
+        "neuroticism": 0.53
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.614,
+        "wealth": 0.488,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0020": 0.4
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0046",
+      "archetype": "entrepreneur",
+      "profile_id": "citizen_0725",
+      "position": [
+        668.0,
+        190.0
+      ],
+      "state": "IDLE",
+      "money": 994,
+      "items": [
+        "backpack",
+        "phone",
+        "notebook"
+      ],
+      "personality": {
+        "openness": 0.37,
+        "conscientiousness": 0.58,
+        "extraversion": 0.64,
+        "agreeableness": 0.67,
+        "neuroticism": 0.65
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.604,
+        "wealth": 0.994,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0015": 0.6419999999999999
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0047",
+      "archetype": "tech_worker",
+      "profile_id": "citizen_0359",
+      "position": [
+        404.0,
+        227.0
+      ],
+      "state": "IDLE",
+      "money": 309,
+      "items": [
+        "basic_backpack",
+        "smartphone"
+      ],
+      "personality": {
+        "openness": 0.6,
+        "conscientiousness": 0.36,
+        "extraversion": 0.48,
+        "agreeableness": 0.5700000000000001,
+        "neuroticism": 0.76
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.586,
+        "wealth": 0.309,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0039": 0.23799999999999996
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0048",
+      "archetype": "tradesperson",
+      "profile_id": "citizen_0700",
+      "position": [
+        697.0,
+        163.0
+      ],
+      "state": "SOCIALIZING",
+      "money": 488,
+      "items": [
+        "basic_backpack",
+        "work_gloves",
+        "lunch_box"
+      ],
+      "personality": {
+        "openness": 0.25,
+        "conscientiousness": 0.48,
+        "extraversion": 0.27,
+        "agreeableness": 0.49000000000000005,
+        "neuroticism": 0.53
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.606,
+        "wealth": 0.488,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0002": 0.7179999999999999
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    },
+    {
+      "id": "citizen_0049",
+      "archetype": "tradesperson",
+      "profile_id": "citizen_0753",
+      "position": [
+        657.0,
+        219.0
+      ],
+      "state": "IDLE",
+      "money": 1529,
+      "items": [
+        "backpack",
+        "work_gloves",
+        "lunch_box"
+      ],
+      "personality": {
+        "openness": 0.43,
+        "conscientiousness": 0.47000000000000003,
+        "extraversion": 0.41,
+        "agreeableness": 0.77,
+        "neuroticism": 0.48
+      },
+      "needs": {
+        "hunger": 0.6000000000000001,
+        "energy": 0.9200000000000004,
+        "social": 0.586,
+        "wealth": 1.0,
+        "safety": 1.0,
+        "achievement": 0.27999999999999997
+      },
+      "relationships": {
+        "citizen_0028": 1.2719999999999998
+      },
+      "stats": {
+        "interactions_count": 1,
+        "trades_completed": 0,
+        "items_given": 0,
+        "items_received": 0,
+        "money_earned": 0,
+        "money_spent": 0,
+        "total_distance_traveled": 0.0
+      }
+    }
+  ],
+  "events": [
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0010",
+        "citizen_0034"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.5829718,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0014",
+        "citizen_0041"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.583009,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0023",
+        "citizen_0009"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.591397,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0003",
+        "citizen_0010"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.5999315,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0005",
+        "citizen_0017"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.5999665,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0015",
+        "citizen_0046"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.6000018,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0023",
+        "citizen_0009"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.600031,
+      "data": {
+        "relationship_before": 1.7699999999999998
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0039",
+        "citizen_0047"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.6000557,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0003",
+        "citizen_0030"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.6082509,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0000",
+        "citizen_0042"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.615828,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0020",
+        "citizen_0045"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.6158519,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0041",
+        "citizen_0014"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.6158745,
+      "data": {
+        "relationship_before": 0.49
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0010",
+        "citizen_0030"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.624234,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0027",
+        "citizen_0024"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.6242652,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0034",
+        "citizen_0010"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.6242878,
+      "data": {
+        "relationship_before": 0.8499999999999999
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0023",
+        "citizen_0009"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.6319563,
+      "data": {
+        "relationship_before": 3.2399999999999993
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0021",
+        "citizen_0006"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.6407876,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0028",
+        "citizen_0049"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.640821,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0026",
+        "citizen_0000"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.648643,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0002",
+        "citizen_0048"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.6568897,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0007",
+        "citizen_0005"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.6569152,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0023",
+        "citizen_0019"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.656941,
+      "data": {
+        "relationship_before": 0.0
+      }
+    },
+    {
+      "type": "interaction",
+      "participants": [
+        "citizen_0024",
+        "citizen_0025"
+      ],
+      "outcome": "success",
+      "timestamp": 1761017655.6569662,
+      "data": {
+        "relationship_before": 0.0
+      }
+    }
+  ],
+  "metrics": {
+    "total_interactions": 23,
+    "total_trades": 0,
+    "total_wealth": 90333.6,
+    "wealth_gini": 0.5290130804041908,
+    "avg_relationship": 1.1588421052631575,
+    "conflict_count": 0,
+    "cooperation_count": 0
+  }
+}

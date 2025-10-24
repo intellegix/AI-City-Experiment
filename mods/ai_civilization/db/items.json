@@ -1,0 +1,269 @@
+{
+  "description": "Items for AI civilization experiment. Items have minimal effects - citizens decide their value through emergent behavior.",
+  "version": "1.0",
+  "items": [
+    {
+      "id": "basic_backpack",
+      "name": "Basic Backpack",
+      "category": "container",
+      "base_value": 10,
+      "capacity": 5
+    },
+    {
+      "id": "backpack",
+      "name": "Backpack",
+      "category": "container",
+      "base_value": 20,
+      "capacity": 10
+    },
+    {
+      "id": "laptop_bag",
+      "name": "Laptop Bag",
+      "category": "container",
+      "base_value": 40,
+      "capacity": 8
+    },
+    {
+      "id": "messenger_bag",
+      "name": "Messenger Bag",
+      "category": "container",
+      "base_value": 25,
+      "capacity": 7
+    },
+    {
+      "id": "worn_backpack",
+      "name": "Worn Backpack",
+      "category": "container",
+      "base_value": 5,
+      "capacity": 4
+    },
+    {
+      "id": "small_bag",
+      "name": "Small Bag",
+      "category": "container",
+      "base_value": 8,
+      "capacity": 3
+    },
+    {
+      "id": "large_bag",
+      "name": "Large Bag",
+      "category": "container",
+      "base_value": 30,
+      "capacity": 15
+    },
+    {
+      "id": "tool_bag",
+      "name": "Tool Bag",
+      "category": "container",
+      "base_value": 35,
+      "capacity": 12
+    },
+    {
+      "id": "lunch_box",
+      "name": "Lunch Box",
+      "category": "container",
+      "base_value": 12,
+      "capacity": 2
+    },
+    {
+      "id": "water_bottle",
+      "name": "Water Bottle",
+      "category": "consumable",
+      "base_value": 3,
+      "effect": "thirst",
+      "effect_amount": 20
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "category": "consumable",
+      "base_value": 5,
+      "effect": "energy",
+      "effect_amount": 15
+    },
+    {
+      "id": "snack",
+      "name": "Snack",
+      "category": "consumable",
+      "base_value": 4,
+      "effect": "hunger",
+      "effect_amount": 15
+    },
+    {
+      "id": "snacks",
+      "name": "Snacks",
+      "category": "consumable",
+      "base_value": 8,
+      "effect": "hunger",
+      "effect_amount": 25
+    },
+    {
+      "id": "energy_drink",
+      "name": "Energy Drink",
+      "category": "consumable",
+      "base_value": 6,
+      "effect": "energy",
+      "effect_amount": 30
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "category": "tool",
+      "base_value": 200,
+      "utility": "communication"
+    },
+    {
+      "id": "phone",
+      "name": "Phone",
+      "category": "tool",
+      "base_value": 150,
+      "utility": "communication"
+    },
+    {
+      "id": "cheap_phone",
+      "name": "Cheap Phone",
+      "category": "tool",
+      "base_value": 50,
+      "utility": "communication"
+    },
+    {
+      "id": "laptop",
+      "name": "Laptop",
+      "category": "tool",
+      "base_value": 500,
+      "utility": "work"
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "category": "tool",
+      "base_value": 5,
+      "utility": "education"
+    },
+    {
+      "id": "sketchbook",
+      "name": "Sketchbook",
+      "category": "tool",
+      "base_value": 8,
+      "utility": "creativity"
+    },
+    {
+      "id": "keys",
+      "name": "Keys",
+      "category": "tool",
+      "base_value": 2,
+      "utility": "access"
+    },
+    {
+      "id": "wallet",
+      "name": "Wallet",
+      "category": "container",
+      "base_value": 15,
+      "capacity": 1
+    },
+    {
+      "id": "medication",
+      "name": "Medication",
+      "category": "medical",
+      "base_value": 20,
+      "effect": "health",
+      "effect_amount": 30
+    },
+    {
+      "id": "medical_supplies",
+      "name": "Medical Supplies",
+      "category": "medical",
+      "base_value": 50,
+      "effect": "health",
+      "effect_amount": 50
+    },
+    {
+      "id": "first_aid",
+      "name": "First Aid Kit",
+      "category": "medical",
+      "base_value": 25,
+      "effect": "health",
+      "effect_amount": 35
+    },
+    {
+      "id": "id_badge",
+      "name": "ID Badge",
+      "category": "tool",
+      "base_value": 5,
+      "utility": "identification"
+    },
+    {
+      "id": "books",
+      "name": "Books",
+      "category": "tool",
+      "base_value": 30,
+      "utility": "education"
+    },
+    {
+      "id": "grading_materials",
+      "name": "Grading Materials",
+      "category": "tool",
+      "base_value": 10,
+      "utility": "work"
+    },
+    {
+      "id": "work_gloves",
+      "name": "Work Gloves",
+      "category": "equipment",
+      "base_value": 12,
+      "utility": "labor"
+    },
+    {
+      "id": "headphones",
+      "name": "Headphones",
+      "category": "tool",
+      "base_value": 40,
+      "utility": "focus"
+    },
+    {
+      "id": "childcare_items",
+      "name": "Childcare Items",
+      "category": "tool",
+      "base_value": 45,
+      "utility": "parenting"
+    },
+    {
+      "id": "business_supplies",
+      "name": "Business Supplies",
+      "category": "tool",
+      "base_value": 60,
+      "utility": "work"
+    },
+    {
+      "id": "resume_portfolio",
+      "name": "Resume Portfolio",
+      "category": "tool",
+      "base_value": 15,
+      "utility": "job_seeking"
+    },
+    {
+      "id": "work_van_keys",
+      "name": "Work Van Keys",
+      "category": "tool",
+      "base_value": 100,
+      "utility": "transport"
+    },
+    {
+      "id": "case_files",
+      "name": "Case Files",
+      "category": "tool",
+      "base_value": 5,
+      "utility": "work"
+    },
+    {
+      "id": "water_bottles",
+      "name": "Water Bottles (Pack)",
+      "category": "consumable",
+      "base_value": 10,
+      "effect": "thirst",
+      "effect_amount": 40
+    }
+  ],
+  "economic_notes": "Base values are starting references. True value emerges from supply/demand and citizen needs. AI citizens determine what's valuable through their decisions.",
+  "utility_notes": "Utility tags are descriptive only. AI citizens decide how useful items are based on their current needs and goals."
+}

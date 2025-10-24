@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pkill wget:*)",
+      "Bash(./setup_github_build.sh)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

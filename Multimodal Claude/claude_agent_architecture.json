@@ -1,0 +1,235 @@
+{
+  "orchestrator_layer": {
+    "name": "Orchestrator Agent (Claude Opus 4)",
+    "responsibilities": [
+      "Task decomposition and planning",
+      "Agent coordination and routing",
+      "State management across workflows",
+      "Context aggregation and synthesis",
+      "Error handling and recovery"
+    ],
+    "capabilities": [
+      "Multimodal input processing (text + vision)",
+      "Strategic decision making",
+      "Resource allocation",
+      "Performance monitoring"
+    ]
+  },
+  "specialized_agents": {
+    "frontend_agent": {
+      "name": "Frontend/UI Development Agent (Claude Sonnet 4)",
+      "focus": "UI/UX implementation",
+      "responsibilities": [
+        "Component architecture design",
+        "State machine implementation",
+        "Render optimization patterns",
+        "Event-driven UI logic",
+        "Performance profiling"
+      ],
+      "tools": [
+        "React/Vue component generation",
+        "CSS optimization",
+        "Bundle analysis",
+        "Performance monitoring"
+      ]
+    },
+    "backend_agent": {
+      "name": "Backend/API Agent (Claude Sonnet 4)",
+      "focus": "Server-side architecture",
+      "responsibilities": [
+        "API design and implementation",
+        "Database schema design",
+        "Business logic layer",
+        "Integration patterns",
+        "State persistence"
+      ],
+      "tools": [
+        "REST/GraphQL API generation",
+        "Database migrations",
+        "Authentication systems",
+        "MCP server implementation"
+      ]
+    },
+    "performance_agent": {
+      "name": "Performance Optimization Agent (Claude Sonnet 4)",
+      "focus": "System performance",
+      "responsibilities": [
+        "Memory management optimization",
+        "Rendering pipeline analysis",
+        "Asset streaming strategies",
+        "GPU acceleration patterns",
+        "Bottleneck identification"
+      ],
+      "tools": [
+        "Profiling tools integration",
+        "Performance metrics analysis",
+        "Memory leak detection",
+        "Optimization recommendations"
+      ]
+    },
+    "architecture_agent": {
+      "name": "Architecture Planning Agent (Claude Sonnet 4)",
+      "focus": "System design",
+      "responsibilities": [
+        "Component boundary definition",
+        "Data flow architecture",
+        "Integration patterns",
+        "Scalability planning",
+        "Technical documentation"
+      ],
+      "tools": [
+        "Architecture diagram generation",
+        "Dependency analysis",
+        "Design pattern implementation",
+        "Documentation generation"
+      ]
+    }
+  },
+  "memory_systems": {
+    "short_term": {
+      "type": "Context Window Memory",
+      "scope": "Current conversation/task",
+      "storage": "In-memory conversation history",
+      "purpose": "Immediate task context"
+    },
+    "long_term": {
+      "type": "Vector Store + Knowledge Base",
+      "scope": "Project-wide knowledge",
+      "storage": "Persistent vector database",
+      "purpose": "Code patterns, architecture decisions, project context"
+    },
+    "working_memory": {
+      "type": "Shared State",
+      "scope": "Multi-agent coordination",
+      "storage": "Redis/In-memory state store",
+      "purpose": "Agent communication and state synchronization"
+    }
+  },
+  "communication_patterns": {
+    "orchestrator_worker": {
+      "description": "Central orchestrator delegates tasks to worker agents",
+      "flow": "Sequential with parallel execution where possible",
+      "coordination": "Orchestrator manages dependencies"
+    },
+    "event_driven": {
+      "description": "Agents communicate via event bus",
+      "flow": "Asynchronous event publishing/subscribing",
+      "coordination": "Event-based triggers and responses"
+    },
+    "pipeline": {
+      "description": "Sequential agent pipeline",
+      "flow": "Output of one agent becomes input to next",
+      "coordination": "Linear workflow with checkpoints"
+    }
+  },
+  "tool_integrations": {
+    "mcp_servers": {
+      "purpose": "External data and tool access",
+      "examples": [
+        "GitHub repository access",
+        "Database connections",
+        "File system operations",
+        "API integrations"
+      ]
+    },
+    "function_calling": {
+      "purpose": "Direct tool invocation",
+      "capabilities": [
+        "Code execution",
+        "Build system integration",
+        "Testing frameworks",
+        "Deployment tools"
+      ]
+    },
+    "vision_api": {
+      "purpose": "Multimodal input processing",
+      "use_cases": [
+        "UI mockup analysis",
+        "Design system interpretation",
+        "Screenshot debugging",
+        "Visual QA"
+      ]
+    }
+  },
+  "ui_performance_architecture": {
+    "rendering_layer": {
+      "optimization_techniques": [
+        "Virtual DOM optimization",
+        "Component memoization",
+        "Lazy loading and code splitting",
+        "GPU-accelerated transforms",
+        "Request animation frame scheduling"
+      ],
+      "state_management": [
+        "Finite state machines for UI state",
+        "Centralized state stores (Redux/Zustand)",
+        "Context API for global state",
+        "Local component state for isolated concerns"
+      ]
+    },
+    "memory_management": {
+      "techniques": [
+        "Object pooling for frequently created/destroyed elements",
+        "Memory profiling and leak detection",
+        "Efficient data structures (arrays over lists)",
+        "Garbage collection optimization",
+        "Asset streaming and LOD systems"
+      ]
+    },
+    "event_system": {
+      "patterns": [
+        "Event delegation for performance",
+        "Debouncing and throttling",
+        "Async event handling",
+        "Event bus for decoupled communication"
+      ]
+    },
+    "update_cycles": {
+      "optimization": [
+        "Batch updates to minimize reflows",
+        "RequestIdleCallback for non-critical work",
+        "Web Workers for heavy computation",
+        "Incremental rendering",
+        "Priority-based update scheduling"
+      ]
+    }
+  },
+  "workflow_patterns": {
+    "development_cycle": [
+      "1. Orchestrator receives user requirements",
+      "2. Architecture agent designs system structure",
+      "3. Parallel execution: Frontend + Backend + Performance agents work simultaneously",
+      "4. Orchestrator aggregates results and identifies conflicts",
+      "5. Iterative refinement based on feedback",
+      "6. Performance agent validates and optimizes"
+    ],
+    "ui_development_flow": [
+      "1. Vision API analyzes mockups/designs",
+      "2. Architecture agent defines component hierarchy",
+      "3. Frontend agent implements components with state machines",
+      "4. Performance agent optimizes rendering pipeline",
+      "5. Integration testing and validation"
+    ]
+  },
+  "best_practices": {
+    "agent_design": [
+      "Each agent has well-defined, single responsibility",
+      "Agents communicate through standardized interfaces",
+      "Agents maintain isolated context windows",
+      "Orchestrator manages cross-agent dependencies"
+    ],
+    "performance_considerations": [
+      "Use Sonnet 4 for worker agents (cost-effective)",
+      "Use Opus 4 only for orchestration (complex reasoning)",
+      "Implement prompt caching for repeated contexts",
+      "Batch similar operations to reduce API calls"
+    ],
+    "ui_optimization": [
+      "Implement state machines for complex UI states",
+      "Use component-based architecture with clear boundaries",
+      "Optimize critical rendering path",
+      "Implement efficient memory management patterns",
+      "Use event-driven patterns for loose coupling"
+    ]
+  }
+}
