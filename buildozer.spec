@@ -29,7 +29,8 @@ version = 1.0.0
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,pygame,numpy,scipy,networkx,noise,dataclasses-json
+# Note: scipy removed due to Fortran compiler requirement (not available in modern NDK)
+requirements = python3,pygame,numpy,networkx,noise,dataclasses-json
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
