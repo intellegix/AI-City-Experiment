@@ -9,3 +9,4 @@ bin/
 android-sdk/
 *.tar.gz
 Tuxemon/
+.claude/
